@@ -1,6 +1,6 @@
 #!/usr/bin/evn python3
 """
-This script contains utilites for the NAICP and Octree prototype.
+This script contains utilitarian functions for the NAICP and Octree prototype.
 Created by: Vice, 26.01.2022
 """
 # Import dependencies

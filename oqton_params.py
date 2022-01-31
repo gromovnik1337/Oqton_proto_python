@@ -14,7 +14,7 @@ rpd_model = "./data/RPD_model.stl"
 rpd_data = "./data/RPD_data.stl"
 
 # Point cloud sampling - determines the ammmount of points in the cloud converted from the .stl file
-rpd_sampling = 10000
+rpd_sampling = 5000
 
 # NAICP parameters
 # ----------------------------------------------------------------
@@ -24,8 +24,12 @@ trans_init = np.array([[1., 0., 0., 0],
                         [0., 1., 0., 0],
                         [0., 0., 1., 0],
                         [0., 0., 0., 1.]])
-threshold_icp = 1900
+threshold_icp = 2000
 max_iteration = 15000
+
+# "Wiggle" algorithm parameters
+wiggle_steps = 20
+rotation_step = np.pi / (wiggle_steps/5)
 
 # Octree parammeters
 # ----------------------------------------------------------------
