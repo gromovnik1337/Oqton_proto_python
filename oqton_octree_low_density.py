@@ -5,7 +5,6 @@ traverses through it and extrapolates only points in the nodes of low density, s
 Created by: Vice, 26.01.2022
 """
 # Import dependencies
-from termios import OCRNL
 import open3d as o3d
 import numpy as np
 from oqton_utils import customDrawOctree, customDrawSingle

@@ -5,7 +5,6 @@ Created by: Vice, 26.01.2022
 """
 # Import dependencies
 import open3d as o3d
-import numpy as np
 
 def customDrawGeometry(model, data, point_size, window_name, transformation):
     """ Custom visualizer function for the NAICP prototype.
